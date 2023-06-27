@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Machine Learning Model - Result</title>
+</head>
+<body>
+    <h1>Machine Learning Model - Result</h1>
+    
+    {% if prediction %}
+        <h2>Prediction Result</h2>
+        <p>The predicted value is: {{ prediction }}</p>
+    {% endif %}
+    
+    {% if plot_image %}
+        <h2>Data Graphic</h2>
+        <img src="{{ url_for('static', filename=plot_image) }}" alt="Data Plot">
+    {% endif %}
+</body>
+</html>
