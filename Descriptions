@@ -1,0 +1,22 @@
+
+The idea is The project is a web aplication in flask python to create a interface that allow the user to input values, numbers, that can generate a linear regression in order to create a graphic using python pandas and others extension
+Title: RegressApp: Simplifying Linear Regression Analysis with Flask and Python
+
+Description:
+RegressApp is an innovative web application built using Flask, a Python web framework, that aims to streamline the process of generating linear regression models and visualizations. The project offers a user-friendly interface where users can input numerical values, and through the implementation of Python libraries such as Pandas and other relevant extensions, obtain insightful regression analysis and graphical representations.
+
+Key Features:
+
+Intuitive User Interface: RegressApp provides a clean and intuitive interface that enables users to easily input their data points. Through a simple form or file upload option, users can conveniently input their numerical values and proceed to the regression analysis stage.
+
+Linear Regression Generation: Utilizing the power of Python libraries such as Pandas, NumPy, and scikit-learn, RegressApp employs advanced algorithms to perform linear regression analysis on the inputted data. The application automatically calculates the regression coefficients, intercept, and other relevant statistical measures to generate accurate regression models.
+
+Interactive Visualization: RegressApp leverages Python's data visualization libraries, such as Matplotlib or Plotly, to create visually appealing and interactive graphs based on the generated regression models. Users can customize the visualization options, such as choosing the type of plot, adding labels, and adjusting scales, to gain deeper insights into the relationships between variables.
+
+Data Export and Sharing: The application enables users to export their regression analysis results and graphical outputs in various formats, such as CSV, PDF, or image files. This allows for easy sharing, collaboration, and further analysis with colleagues, stakeholders, or academic researchers.
+
+Error Analysis and Model Evaluation: RegressApp goes beyond generating regression models and provides comprehensive error analysis and model evaluation metrics. Users can assess the accuracy and reliability of their regression models by examining measures like the coefficient of determination (R-squared), root mean square error (RMSE), and mean absolute error (MAE).
+
+RegressApp empowers users to perform linear regression analysis without the need for extensive programming knowledge or manual calculations. By simplifying the process and offering intuitive visualizations, the project promotes data-driven decision-making and facilitates a deeper understanding of relationships between variables.
+Task Division: We followed the suggestion of professor Ron and divided the web app part and machine learning, the coding was mostly done by Leonardo Aureliano and the web dev was handled by Joao Homero, although we faced some difficulties in integrating the flask website generated with the rest of the code, we tried to deliver the best we could generate.
+
